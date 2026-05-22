@@ -1,1 +1,7 @@
-{"timestamp":"00:00:01.802","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:06.576","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:02:41.116","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:04:36.245","source":"Browser","level":"LOG","message":"{\"category\":\"Beach\",\"country\":\"indonesia\",\"departureDate\":\"2026-05-15\",\"description\":\"i love it\",\"destinationName\":\"bali\",\"duration\":\"7 days\",\"imageUrl\":\"https://destination.jpg\",\"price\":\"1299\"}"}
+{"timestamp":"00:04:36.447","source":"Browser","level":"LOG","message":"{}"}
+{"timestamp":"00:08:22.357","source":"Browser","level":"LOG","message":"{\"category\":\"Beach\",\"country\":\"indonesia\",\"departureDate\":\"2026-05-15\",\"description\":\"i love it\",\"destinationName\":\"bali\",\"duration\":\"7 days\",\"imageUrl\":\"https://destination.jpg\",\"price\":\"1299\"}"}
+{"timestamp":"00:08:22.361","source":"Browser","level":"LOG","message":"{\"acknowledged\":true,\"insertedId\":\"6a108dd05694609a3c337308\"}"}
+{"timestamp":"00:11:32.737","source":"Server","level":"LOG","message":"✓ Compiled in 687.9s"}

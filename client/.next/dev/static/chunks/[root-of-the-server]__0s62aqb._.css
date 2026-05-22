@@ -143,6 +143,7 @@
       --tw-border-style: solid;
       --tw-font-weight: initial;
       --tw-tracking: initial;
+      --tw-outline-style: solid;
       --tw-animation-delay: 0s;
       --tw-animation-direction: normal;
       --tw-animation-duration: initial;
@@ -189,7 +190,6 @@
       --tw-numeric-figure: initial;
       --tw-numeric-spacing: initial;
       --tw-numeric-fraction: initial;
-      --tw-outline-style: solid;
       --tw-border-spacing-x: 0;
       --tw-border-spacing-y: 0;
       --tw-gradient-position: initial;
@@ -232,6 +232,7 @@
     --container-md: 28rem;
     --container-lg: 32rem;
     --container-xl: 36rem;
+    --container-3xl: 48rem;
     --container-7xl: 80rem;
     --text-xs: .75rem;
     --text-xs--line-height: calc(1 / .75);
@@ -12974,6 +12975,10 @@
     min-height: 100%;
   }
 
+  .w-3xl {
+    width: var(--container-3xl);
+  }
+
   .w-full {
     width: 100%;
   }
@@ -13026,6 +13031,10 @@
     gap: calc(var(--spacing) * 5);
   }
 
+  .gap-8 {
+    gap: calc(var(--spacing) * 8);
+  }
+
   .gap-10 {
     gap: calc(var(--spacing) * 10);
   }
@@ -13034,6 +13043,24 @@
     --tw-space-y-reverse: 0;
     margin-block-start: calc(calc(var(--spacing) * 2) * var(--tw-space-y-reverse));
     margin-block-end: calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse)));
+  }
+
+  :where(.space-y-8 > :not(:last-child)) {
+    --tw-space-y-reverse: 0;
+    margin-block-start: calc(calc(var(--spacing) * 8) * var(--tw-space-y-reverse));
+    margin-block-end: calc(calc(var(--spacing) * 8) * calc(1 - var(--tw-space-y-reverse)));
+  }
+
+  .rounded-2xl {
+    border-radius: calc(var(--radius) * 2);
+  }
+
+  .rounded-3xl {
+    border-radius: calc(var(--radius) * 3);
+  }
+
+  .rounded-none {
+    border-radius: 0;
   }
 
   .border-t {
@@ -13190,6 +13217,11 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
+  }
+
   .outline-none {
     --tw-outline-style: none;
     outline-style: none;
@@ -13202,8 +13234,20 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:col-span-2 {
+      grid-column: span 2 / span 2;
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:mt-0 {
       margin-top: calc(var(--spacing) * 0);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:grid-cols-2 {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
   }
 
@@ -13354,6 +13398,12 @@
 @property --tw-tracking {
   syntax: "*";
   inherits: false
+}
+
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
 }
 
 @property --tw-shadow {
@@ -13515,12 +13565,6 @@
 @property --tw-numeric-fraction {
   syntax: "*";
   inherits: false
-}
-
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
 
 @property --tw-border-spacing-x {
