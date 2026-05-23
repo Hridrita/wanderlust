@@ -1,3 +1,4 @@
+import { EditModal } from "@/components/EditModal";
 import Image from "next/image";
 import React from "react";
 import { FaRegCalendar } from "react-icons/fa";
@@ -13,14 +14,19 @@ const DestinationDetailsPage = async ({ params }) => {
   const { _id, imageUrl, price, destinationName, duration, country, description } =
     destination;
   console.log(destination);
+
   return (
     <div className="max-w-7xl mx-auto">
+        <div className="flex justify-end">
+            <EditModal destination={destination}></EditModal>
+           
+        </div>
       <Image
         alt={destinationName}
         src={imageUrl}
         height={500}
         width={800}
-
+        className="w-full h-100 object-cover"
       ></Image>
 
       <div className="p-4">
