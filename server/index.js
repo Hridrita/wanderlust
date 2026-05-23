@@ -11,6 +11,10 @@ const app = express();
 
 const PORT = process.env.PORT;
 
+const cors = require("cors");
+app.use(cors());
+app.use(express.json());
+
 const client = new MongoClient(uri, {
   serverApi: {
     version: ServerApiVersion.v1,
@@ -23,11 +27,28 @@ async function run() {
   try {
     
     await client.connect();
+
+    const db = client.db("wanderlust");
+
+    const destionationCollection = db.collection("destionations");
+
+    app.get('/destination', async(req,res) =>{
+      const result = await destionationCollection.find().toArray();
+      res.json(result);
+    })
+
+    app.post('/destination', async(req, res)=>{
+      const destionationData = req.body;
+      console.log(destionationData);
+      const result = await destionationCollection.insertOne(destionationData);
+
+      res.json(result);
+    })
     
     await client.db("admin").command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
   } finally {
-    await client.close();
+    // await client.close();
   }
 }
 run().catch(console.dir);
