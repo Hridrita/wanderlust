@@ -1,174 +1,184 @@
-{"timestamp":"00:00:01.335","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:02.012","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/assets/Wanderlast.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
-{"timestamp":"00:00:02.012","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"/assets/Wanderlast.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
-{"timestamp":"00:00:02.017","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"https://i.ibb.co.com/YFgTxZM0/image.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
-{"timestamp":"00:00:02.017","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"https://i.ibb.co.com/YFgTxZM0/image.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
-{"timestamp":"00:00:02.811","source":"Server","level":"LOG","message":"[{...}]"}
-{"timestamp":"00:00:03.059","source":"Server","level":"LOG","message":"[{...}]"}
-{"timestamp":"00:00:03.144","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:00:03.505","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:00:04.332","source":"Browser","level":"WARN","message":"Image with src \"/assets/Wanderlast.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
-{"timestamp":"00:00:11.062","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/assets/Wanderlast.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
-{"timestamp":"00:00:11.063","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"/assets/Wanderlast.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
-{"timestamp":"00:00:11.091","source":"Browser","level":"WARN","message":"Image with src \"https://i.ibb.co.com/YFgTxZM0/image.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
-{"timestamp":"00:00:11.094","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"https://i.ibb.co.com/YFgTxZM0/image.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
-{"timestamp":"00:00:11.094","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"https://i.ibb.co.com/YFgTxZM0/image.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\u001b[39m"}
-{"timestamp":"00:00:16.583","source":"Server","level":"LOG","message":"○ Compiling /add-destination ..."}
-{"timestamp":"02:02:05.791","source":"Server","level":"LOG","message":"[]"}
-{"timestamp":"02:04:34.945","source":"Browser","level":"LOG","message":"{\"category\":\"Beach\",\"country\":\"Indonesia\",\"departureDate\":\"2026-07-15\",\"description\":\"Experience the ultimate tropical getaway with pristine beaches and cultural excursions.\",\"destinationName\":\"Bali Paradise\",\"duration\":\"7 days / 6 nights\",\"imageUrl\":\"https://i.ibb.co.com/zVWP9rYy/image.png\",\"price\":\"1298\"}"}
-{"timestamp":"02:04:35.143","source":"Browser","level":"LOG","message":"{\"acknowledged\":true,\"insertedId\":\"6a11a4ccfffbe700d8d58324\"}"}
-{"timestamp":"02:06:29.138","source":"Browser","level":"LOG","message":"{\"category\":\"Mountain\",\"country\":\"Switzerland\",\"departureDate\":\"2026-08-10\",\"description\":\"Breathtaking mountain views, skiing activities, and luxury chalet stays.\",\"destinationName\":\"Swiss Alps Escape\",\"duration\":\"5 days / 4 nights\",\"imageUrl\":\"https://i.ibb.co.com/DgDPwMbX/image.png\",\"price\":\"2099\"}"}
-{"timestamp":"02:06:29.222","source":"Browser","level":"LOG","message":"{\"acknowledged\":true,\"insertedId\":\"6a11a53efffbe700d8d58325\"}"}
-{"timestamp":"02:08:07.229","source":"Browser","level":"LOG","message":"{\"category\":\"Cultural\",\"country\":\"Japan\",\"departureDate\":\"2026-09-05\",\"description\":\"Explore ancient temples, traditional tea ceremonies, and beautiful gardens.\",\"destinationName\":\"Kyoto Cultural Tour\",\"duration\":\"6 days / 5 nights\",\"imageUrl\":\"https://i.ibb.co.com/VYKKXYFs/image.png\",\"price\":\"1550\"}"}
-{"timestamp":"02:08:07.314","source":"Browser","level":"LOG","message":"{\"acknowledged\":true,\"insertedId\":\"6a11a5a0fffbe700d8d58326\"}"}
-{"timestamp":"02:09:12.351","source":"Browser","level":"LOG","message":"{\"category\":\"City\",\"country\":\"France\",\"departureDate\":\"2026-10-12\",\"description\":\"A romantic journey through iconic landmarks, museums, and gourmet dining.\",\"destinationName\":\"Parisian Romance\",\"duration\":\"4 days / 3 nights\",\"imageUrl\":\"https://i.ibb.co.com/99np2g6s/image.png\",\"price\":\"1800\"}"}
-{"timestamp":"02:09:12.400","source":"Browser","level":"LOG","message":"{\"acknowledged\":true,\"insertedId\":\"6a11a5e1fffbe700d8d58327\"}"}
-{"timestamp":"02:10:39.489","source":"Browser","level":"LOG","message":"{\"category\":\"Adventure\",\"country\":\"Tanzania\",\"departureDate\":\"2026-11-20\",\"description\":\"Witness the great migration and experience unique wildlife in their natural habitat.\",\"destinationName\":\"Safari Serengeti\",\"duration\":\"8 days / 7 nights\",\"imageUrl\":\"https://i.ibb.co.com/BV8538js/image.png\",\"price\":\"2800\"}"}
-{"timestamp":"02:10:39.570","source":"Browser","level":"LOG","message":"{\"acknowledged\":true,\"insertedId\":\"6a11a638fffbe700d8d58328\"}"}
-{"timestamp":"02:11:50.324","source":"Browser","level":"LOG","message":"{\"category\":\"Luxury\",\"country\":\"Greece\",\"departureDate\":\"2026-02-06\",\"description\":\"Enjoy stunning sunset views, white-washed architecture, and crystal clear waters.\",\"destinationName\":\"Santorini Sunset\",\"duration\":\"5 days / 4 nights\",\"imageUrl\":\"https://i.ibb.co.com/ym27mmC3/image.png\",\"price\":\"1398\"}"}
-{"timestamp":"02:11:50.385","source":"Browser","level":"LOG","message":"{\"acknowledged\":true,\"insertedId\":\"6a11a67ffffbe700d8d58329\"}"}
-{"timestamp":"02:12:05.080","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:14:23.994","source":"Server","level":"LOG","message":"✓ Compiled in 2.5s"}
-{"timestamp":"02:14:24.906","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:14:25.197","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:14:25.383","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:14:25.494","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:14:49.099","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:14:49.176","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:14:49.212","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:14:58.503","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:14:58.611","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:15:58.022","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:15:58.162","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:16:14.959","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:16:14.998","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:16:31.991","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:16:32.045","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:16:35.189","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:16:35.261","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:18:15.052","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:18:15.114","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:18:18.244","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:18:18.326","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:18:35.367","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:18:35.403","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:18:45.996","source":"Server","level":"LOG","message":"✓ Compiled in 117ms"}
-{"timestamp":"02:18:46.147","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:18:46.230","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:18:50.077","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:18:50.121","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:18:53.202","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:18:53.288","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:18:59.929","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:18:59.962","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:19:05.902","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:19:05.941","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:20:04.049","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:20:04.118","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:20:04.171","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:20:14.095","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:20:55.854","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:20:55.894","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:21:06.675","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:21:06.734","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:21:31.842","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:21:31.909","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:21:37.353","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:21:37.442","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:21:46.392","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:21:46.428","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:21:57.785","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:21:57.878","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:22:00.028","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:22:00.134","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:22:06.825","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:22:06.863","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:22:29.420","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:22:29.457","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:22:32.491","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:22:32.524","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:22:47.160","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:22:54.884","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:23:03.631","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:27:40.806","source":"Server","level":"ERROR","message":"⨯ ReferenceError: Geist is not defined"}
-{"timestamp":"02:27:41.145","source":"Server","level":"ERROR","message":"⨯ ReferenceError: Geist is not defined"}
-{"timestamp":"02:27:41.204","source":"Server","level":"LOG","message":"✓ Compiled in 1570ms"}
-{"timestamp":"02:27:42.278","source":"Server","level":"ERROR","message":"⨯ ReferenceError: Geist is not defined"}
-{"timestamp":"02:27:42.667","source":"Server","level":"ERROR","message":"⨯ ReferenceError: Geist is not defined"}
-{"timestamp":"02:27:43.055","source":"Server","level":"ERROR","message":"⨯ ReferenceError: Geist is not defined"}
-{"timestamp":"02:27:43.432","source":"Server","level":"ERROR","message":"⨯ ReferenceError: Geist is not defined"}
-{"timestamp":"02:28:08.049","source":"Server","level":"LOG","message":"✓ Compiled in 118ms"}
-{"timestamp":"02:28:17.178","source":"Server","level":"LOG","message":"✓ Compiled in 112ms"}
-{"timestamp":"02:28:31.754","source":"Server","level":"LOG","message":"✓ Compiled in 1043ms"}
-{"timestamp":"02:28:35.854","source":"Server","level":"LOG","message":"✓ Compiled in 264ms"}
-{"timestamp":"02:28:47.345","source":"Server","level":"LOG","message":"✓ Compiled in 116ms"}
-{"timestamp":"02:28:56.969","source":"Server","level":"LOG","message":"✓ Compiled in 134ms"}
-{"timestamp":"02:29:03.120","source":"Server","level":"LOG","message":"✓ Compiled in 116ms"}
-{"timestamp":"02:29:09.477","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:29:10.552","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:29:10.689","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:29:10.756","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:29:10.917","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:29:11.025","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:29:11.121","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:29:11.236","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:29:11.481","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:29:11.845","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"02:29:11.979","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/assets/Wanderlast.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
-{"timestamp":"02:29:11.980","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"/assets/Wanderlast.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
-{"timestamp":"02:29:11.981","source":"Browser","level":"WARN","message":"Image with src \"/assets/Wanderlast.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
-{"timestamp":"02:29:59.869","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:29:59.981","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:30:01.452","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:30:01.500","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:30:15.889","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:30:15.939","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:30:30.458","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:30:30.528","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:30:33.855","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:30:33.975","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:30:53.114","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:30:53.154","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:31:37.964","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:31:38.025","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:32:24.901","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:32:24.939","source":"Server","level":"LOG","message":"✓ Compiled in 462ms"}
-{"timestamp":"02:32:25.081","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:32:25.101","source":"Server","level":"WARN","message":"⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload"}
-{"timestamp":"02:32:25.298","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:32:25.454","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:32:25.631","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:32:25.707","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:32:25.738","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:32:25.817","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:32:25.887","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:32:25.950","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:32:26.057","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:32:26.411","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"02:32:28.332","source":"Browser","level":"WARN","message":"Image with src \"/assets/Wanderlast.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
-{"timestamp":"02:33:19.960","source":"Server","level":"LOG","message":"✓ Compiled in 259ms"}
-{"timestamp":"02:33:20.131","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:33:20.195","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:33:21.333","source":"Browser","level":"ERROR","message":"uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.\nOpen your browser's console to view the Component stack trace."}
-{"timestamp":"02:33:21.819","source":"Server","level":"LOG","message":"✓ Compiled in 129ms"}
-{"timestamp":"02:33:22.148","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:33:22.243","source":"Server","level":"ERROR","message":"⨯ Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead."}
-{"timestamp":"02:33:22.633","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"02:33:23.326","source":"Browser","level":"ERROR","message":"uncaughtError: Error: Failed prop type: The prop `href` expects a `string` or `object` in `<Link>`, but got `undefined` instead.\nOpen your browser's console to view the Component stack trace."}
-{"timestamp":"02:33:27.425","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:33:27.893","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"02:33:28.326","source":"Browser","level":"WARN","message":"Image with src \"/assets/Wanderlast.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
-{"timestamp":"02:33:37.303","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:33:37.349","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:33:42.244","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:33:42.284","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:33:51.207","source":"Server","level":"LOG","message":"✓ Compiled in 178ms"}
-{"timestamp":"02:33:51.350","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:33:51.438","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:34:12.619","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:34:12.671","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
-{"timestamp":"02:34:14.700","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"https://i.ibb.co.com/VYKKXYFs/image.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
-{"timestamp":"02:34:14.701","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"https://i.ibb.co.com/VYKKXYFs/image.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\u001b[39m"}
-{"timestamp":"02:34:14.701","source":"Browser","level":"WARN","message":"Image with src \"https://i.ibb.co.com/VYKKXYFs/image.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
-{"timestamp":"02:34:14.820","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/assets/Wanderlast.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
-{"timestamp":"02:34:14.821","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"/assets/Wanderlast.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
+{"timestamp":"00:00:08.484","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:12.294","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:00:13.536","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:13.727","source":"Browser","level":"WARN","message":"Image with src \"/assets/Wanderlast.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:00:13.765","source":"Browser","level":"WARN","message":"Image with src \"https://i.ibb.co.com/VYKKXYFs/image.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"00:00:13.941","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/assets/Wanderlast.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
+{"timestamp":"00:00:13.942","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"/assets/Wanderlast.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
+{"timestamp":"00:00:13.943","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"https://i.ibb.co.com/VYKKXYFs/image.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
+{"timestamp":"00:00:13.944","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"https://i.ibb.co.com/VYKKXYFs/image.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\u001b[39m"}
+{"timestamp":"00:00:26.962","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:00:27.057","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:00:56.119","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:00:56.187","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:00:58.825","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:00:58.894","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:01:00.409","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:01:00.459","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:02:17.074","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:02:17.278","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:02:17.294","source":"Server","level":"LOG","message":"✓ Compiled in 483ms"}
+{"timestamp":"00:11:44.084","source":"Server","level":"LOG","message":"✓ Compiled in 373ms"}
+{"timestamp":"00:11:44.770","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:11:44.968","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:11:59.169","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:11:59.184","source":"Server","level":"LOG","message":"✓ Compiled in 148ms"}
+{"timestamp":"00:11:59.214","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:12:06.775","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:12:06.798","source":"Server","level":"LOG","message":"✓ Compiled in 127ms"}
+{"timestamp":"00:12:06.825","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:12:15.319","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:12:15.336","source":"Server","level":"LOG","message":"✓ Compiled in 89ms"}
+{"timestamp":"00:12:15.366","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:12:20.986","source":"Browser","level":"ERROR","message":"./src/app/destinations/[id]/page.jsx:18:13\nExpression expected\n  16 |             src={imageUrl} height={}>\n  17 |\n> 18 |             </Image>\n     |             ^\n  19 |         </div>\n  20 |     );\n  21 | };\n\nParsing ecmascript source code failed"}
+{"timestamp":"00:12:20.986","source":"Browser","level":"ERROR","message":"./src/app/destinations/[id]/page.jsx:18:14\nUnterminated regexp literal\n  16 |             src={imageUrl} height={}>\n  17 |\n> 18 |             </Image>\n     |              ^^^^^^^\n  19 |         </div>\n  20 |     );\n  21 | };\n\nParsing ecmascript source code failed"}
+{"timestamp":"00:12:20.986","source":"Browser","level":"ERROR","message":"./src/app/destinations/[id]/page.jsx:18:13\nExpression expected\n  16 |             src={imageUrl} height={}>\n  17 |\n> 18 |             </Image>\n     |             ^\n  19 |         </div>\n  20 |     );\n  21 | };\n\nParsing ecmascript source code failed"}
+{"timestamp":"00:12:20.986","source":"Browser","level":"ERROR","message":"./src/app/destinations/[id]/page.jsx:18:14\nUnterminated regexp literal\n  16 |             src={imageUrl} height={}>\n  17 |\n> 18 |             </Image>\n     |              ^^^^^^^\n  19 |         </div>\n  20 |     );\n  21 | };\n\nParsing ecmascript source code failed"}
+{"timestamp":"00:12:21.318","source":"Browser","level":"ERROR","message":"uncaughtError: Error: ./src/app/destinations/[id]/page.jsx:18:13\nExpression expected\n  16 |             src={imageUrl} height={}>\n  17 |\n> 18 |             </Image>\n     |             ^\n  19 |         </div>\n  20 |     );\n  21 | };\n\nParsing ecmascript source code failed\n\n"}
+{"timestamp":"00:12:21.338","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31mUncaught Error: ./src/app/destinations/[id]/page.jsx:18:13\\nExpression expected\\n  16 |             src={imageUrl} height={}>\\n  17 |\\n> 18 |             </Image>\\n     |             ^\\n  19 |         </div>\\n  20 |     );\\n  21 | };\\n\\nParsing ecmascript source code failed\\n\\n\\u001b[39m\\n\\u001b[31m    at <unknown> (Error: ./src/app/destinations/[id]/page.jsx:18:13)\\n    at <unknown> (Error: (./src/app/destinations/[id]/page.jsx:18:13)\\u001b[39m\""}
+{"timestamp":"00:12:21.339","source":"Browser","level":"ERROR","message":"\u001b[31mUncaught Error: ./src/app/destinations/[id]/page.jsx:18:13\nExpression expected\n  16 |             src={imageUrl} height={}>\n  17 |\n> 18 |             </Image>\n     |             ^\n  19 |         </div>\n  20 |     );\n  21 | };\n\nParsing ecmascript source code failed\n\n\u001b[39m\n\u001b[31m    at <unknown> (Error: ./src/app/destinations/[id]/page.jsx:18:13)\n    at <unknown> (Error: (./src/app/destinations/[id]/page.jsx:18:13)\u001b[39m"}
+{"timestamp":"00:12:22.324","source":"Browser","level":"ERROR","message":"./src/app/destinations/[id]/page.jsx:18:13\nExpression expected\n  16 |             src={imageUrl} height={}>\n  17 |\n> 18 |             </Image>\n     |             ^\n  19 |         </div>\n  20 |     );\n  21 | };\n\nParsing ecmascript source code failed"}
+{"timestamp":"00:12:22.324","source":"Browser","level":"ERROR","message":"./src/app/destinations/[id]/page.jsx:18:14\nUnterminated regexp literal\n  16 |             src={imageUrl} height={}>\n  17 |\n> 18 |             </Image>\n     |              ^^^^^^^\n  19 |         </div>\n  20 |     );\n  21 | };\n\nParsing ecmascript source code failed"}
+{"timestamp":"00:12:22.324","source":"Browser","level":"ERROR","message":"./src/app/destinations/[id]/page.jsx:18:13\nExpression expected\n  16 |             src={imageUrl} height={}>\n  17 |\n> 18 |             </Image>\n     |             ^\n  19 |         </div>\n  20 |     );\n  21 | };\n\nParsing ecmascript source code failed"}
+{"timestamp":"00:12:22.324","source":"Browser","level":"ERROR","message":"./src/app/destinations/[id]/page.jsx:18:14\nUnterminated regexp literal\n  16 |             src={imageUrl} height={}>\n  17 |\n> 18 |             </Image>\n     |              ^^^^^^^\n  19 |         </div>\n  20 |     );\n  21 | };\n\nParsing ecmascript source code failed"}
+{"timestamp":"00:12:31.306","source":"Server","level":"LOG","message":"✓ Compiled in 82ms"}
+{"timestamp":"00:12:31.661","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:12:32.050","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:12:38.495","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:12:38.507","source":"Server","level":"LOG","message":"✓ Compiled in 86ms"}
+{"timestamp":"00:12:38.540","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:12:41.127","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:12:41.148","source":"Server","level":"LOG","message":"✓ Compiled in 103ms"}
+{"timestamp":"00:12:41.176","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:12:58.844","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:12:58.861","source":"Server","level":"LOG","message":"✓ Compiled in 89ms"}
+{"timestamp":"00:12:58.893","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:13:01.406","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:13:01.422","source":"Server","level":"LOG","message":"✓ Compiled in 93ms"}
+{"timestamp":"00:13:01.446","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:13:08.422","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:13:08.435","source":"Server","level":"LOG","message":"✓ Compiled in 96ms"}
+{"timestamp":"00:13:08.459","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:13:10.451","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:13:10.465","source":"Server","level":"LOG","message":"✓ Compiled in 82ms"}
+{"timestamp":"00:13:10.513","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:13:13.585","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:13:13.597","source":"Server","level":"LOG","message":"✓ Compiled in 82ms"}
+{"timestamp":"00:13:13.619","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:13:17.906","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/assets/Wanderlast.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
+{"timestamp":"00:13:17.907","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"/assets/Wanderlast.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
+{"timestamp":"00:13:17.907","source":"Browser","level":"WARN","message":"Image with src \"/assets/Wanderlast.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:13:17.919","source":"Browser","level":"WARN","message":"Image with src \"https://i.ibb.co.com/VYKKXYFs/image.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"00:13:17.920","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"https://i.ibb.co.com/VYKKXYFs/image.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
+{"timestamp":"00:13:17.921","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"https://i.ibb.co.com/VYKKXYFs/image.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\u001b[39m"}
+{"timestamp":"00:13:19.931","source":"Server","level":"LOG","message":"6a11a4ccfffbe700d8d58324"}
+{"timestamp":"00:13:20.033","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:13:21.846","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"https://i.ibb.co.com/zVWP9rYy/image.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
+{"timestamp":"00:13:21.848","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"https://i.ibb.co.com/zVWP9rYy/image.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
+{"timestamp":"00:13:21.848","source":"Browser","level":"WARN","message":"Image with src \"https://i.ibb.co.com/zVWP9rYy/image.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:13:37.197","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:13:37.283","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:13:40.214","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"https://i.ibb.co.com/DgDPwMbX/image.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
+{"timestamp":"00:13:40.214","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"https://i.ibb.co.com/DgDPwMbX/image.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
+{"timestamp":"00:13:40.214","source":"Browser","level":"WARN","message":"Image with src \"https://i.ibb.co.com/DgDPwMbX/image.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:14:32.244","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:14:32.255","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:14:32.279","source":"Server","level":"ERROR","message":"⨯ ReferenceError: LuMapPin is not defined"}
+{"timestamp":"00:14:32.498","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:14:32.507","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:14:32.511","source":"Server","level":"ERROR","message":"⨯ ReferenceError: LuMapPin is not defined"}
+{"timestamp":"00:14:32.569","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:14:32.576","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:14:32.581","source":"Server","level":"ERROR","message":"⨯ ReferenceError: LuMapPin is not defined"}
+{"timestamp":"00:14:33.324","source":"Browser","level":"ERROR","message":"uncaughtError: ReferenceError: LuMapPin is not defined"}
+{"timestamp":"00:14:39.823","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:14:40.052","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:14:40.348","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:14:41.331","source":"Browser","level":"WARN","message":"Image with src \"/assets/Wanderlast.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:14:41.331","source":"Browser","level":"WARN","message":"Image with src \"https://i.ibb.co.com/DgDPwMbX/image.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:14:52.925","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/assets/Wanderlast.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
+{"timestamp":"00:14:52.925","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"/assets/Wanderlast.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
+{"timestamp":"00:14:52.928","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"https://i.ibb.co.com/DgDPwMbX/image.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
+{"timestamp":"00:14:52.928","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"https://i.ibb.co.com/DgDPwMbX/image.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
+{"timestamp":"00:14:52.961","source":"Browser","level":"WARN","message":"Image with src \"https://i.ibb.co.com/DgDPwMbX/image.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
+{"timestamp":"00:14:52.962","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"https://i.ibb.co.com/DgDPwMbX/image.png\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
+{"timestamp":"00:14:52.962","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"https://i.ibb.co.com/DgDPwMbX/image.png\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\u001b[39m"}
+{"timestamp":"00:15:52.807","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:15:52.812","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:15:52.863","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:15:52.867","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:08.540","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:08.545","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:08.596","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:08.601","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:20.473","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:20.479","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:20.522","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:20.526","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:27.030","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:27.035","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:27.108","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:27.142","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:45.392","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:45.397","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:45.441","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:45.446","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:48.508","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:48.513","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:48.558","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:48.562","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:50.622","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:50.628","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:50.659","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:50.663","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:56.054","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:56.059","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:56.108","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:56.115","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:59.727","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:59.732","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:16:59.740","source":"Server","level":"LOG","message":"✓ Compiled in 441ms"}
+{"timestamp":"00:16:59.768","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:16:59.772","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:17:03.483","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:17:03.490","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:17:03.527","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:17:03.533","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:17:07.745","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:17:07.750","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:17:07.805","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:17:07.810","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:17:12.841","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:17:12.847","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:17:12.884","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:17:12.888","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:17:20.731","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:17:20.736","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:17:20.769","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:17:20.774","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:17:34.339","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:17:34.344","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:17:34.395","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:17:34.400","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:17:35.324","source":"Browser","level":"ERROR","message":"Received `%s` for a non-boolean attribute `%s`.\n\nIf you want to write it to the DOM, pass a string instead: %s=\"%s\" or %s={value.toString()}. true cl cl true cl"}
+{"timestamp":"00:17:35.627","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:17:35.632","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:17:35.666","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:17:35.671","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:17:36.284","source":"Server","level":"ERROR","message":"[browser] \"Received `true` for a non-boolean attribute `cl`.\\n\\nIf you want to write it to the DOM, pass a string instead: cl=\\\"true\\\" or cl={value.toString()}.\" \"\""}
+{"timestamp":"00:17:36.285","source":"Browser","level":"ERROR","message":"Received `true` for a non-boolean attribute `cl`.\n\nIf you want to write it to the DOM, pass a string instead: cl=\"true\" or cl={value.toString()}. \"\""}
+{"timestamp":"00:20:57.200","source":"Server","level":"LOG","message":"[{...},{...},{...},{...},{...},{...}]"}
+{"timestamp":"00:21:00.462","source":"Server","level":"LOG","message":"6a11a4ccfffbe700d8d58324"}
+{"timestamp":"00:21:00.552","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:21:00.623","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"https://i.ibb.co.com/zVWP9rYy/image.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
+{"timestamp":"00:21:00.623","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"https://i.ibb.co.com/zVWP9rYy/image.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}
+{"timestamp":"00:21:00.624","source":"Browser","level":"WARN","message":"Image with src \"https://i.ibb.co.com/zVWP9rYy/image.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:21:09.966","source":"Server","level":"LOG","message":"6a11a53efffbe700d8d58325"}
+{"timestamp":"00:21:10.049","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:21:16.368","source":"Server","level":"LOG","message":"6a11a4ccfffbe700d8d58324"}
+{"timestamp":"00:21:16.532","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:24:03.843","source":"Server","level":"LOG","message":"6a11a5a0fffbe700d8d58326"}
+{"timestamp":"00:24:03.934","source":"Server","level":"LOG","message":"{}"}
+{"timestamp":"00:24:07.424","source":"Browser","level":"WARN","message":"Image with src \"https://i.ibb.co.com/VYKKXYFs/image.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:24:07.425","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"https://i.ibb.co.com/VYKKXYFs/image.png\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\\u001b[39m\""}
+{"timestamp":"00:24:07.425","source":"Browser","level":"WARN","message":"\u001b[33mImage with src \"https://i.ibb.co.com/VYKKXYFs/image.png\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio.\u001b[39m"}

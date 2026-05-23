@@ -9,7 +9,7 @@ const DestinationPage = async() => {
             <h1 className="text-4xl mt-12 mb-4">Explore All Destinations</h1>
             <p className="text-gray-500 mb-12">Find your perfect travel experience from our curated collection</p>
 
-            <div className="grid grid-cols-4 gap-5">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
                 {
                     destinations.map(des => <DestinationCard key={des._id} destination={des}></DestinationCard>)
                 }

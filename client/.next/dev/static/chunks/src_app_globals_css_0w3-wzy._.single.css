@@ -86,7 +86,6 @@
       "Courier New", monospace;
     --color-cyan-400: #00d2ef;
     --color-cyan-500: #00b7d7;
-    --color-blue-400: #54a2ff;
     --color-blue-600: #155dfc;
     --color-blue-700: #1447e6;
     --color-gray-400: #99a1af;
@@ -155,7 +154,6 @@
     :root, :host {
       --color-cyan-400: lab(76.6045% -40.9406 -29.6231);
       --color-cyan-500: lab(67.805% -35.3952 -30.2018);
-      --color-blue-400: lab(65.0361% -1.42062 -56.9803);
       --color-blue-600: lab(44.0605% 29.0279 -86.0352);
       --color-blue-700: lab(36.9089% 35.0961 -85.6872);
       --color-gray-400: lab(65.9269% -.832707 -8.17474);
@@ -12824,20 +12822,16 @@
     margin-inline: auto;
   }
 
-  .my-8 {
-    margin-block: calc(var(--spacing) * 8);
-  }
-
-  .my-12 {
-    margin-block: calc(var(--spacing) * 12);
-  }
-
   .mt-3 {
     margin-top: calc(var(--spacing) * 3);
   }
 
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
+  }
+
+  .mt-10 {
+    margin-top: calc(var(--spacing) * 10);
   }
 
   .mt-12 {
@@ -12858,14 +12852,6 @@
 
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
-  }
-
-  .mb-5 {
-    margin-bottom: calc(var(--spacing) * 5);
-  }
-
-  .mb-8 {
-    margin-bottom: calc(var(--spacing) * 8);
   }
 
   .mb-12 {
@@ -12924,6 +12910,10 @@
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -12950,10 +12940,6 @@
 
   .gap-1 {
     gap: calc(var(--spacing) * 1);
-  }
-
-  .gap-3 {
-    gap: calc(var(--spacing) * 3);
   }
 
   .gap-3\.5 {
@@ -13078,10 +13064,6 @@
     object-fit: cover;
   }
 
-  .p-2 {
-    padding: calc(var(--spacing) * 2);
-  }
-
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
@@ -13201,14 +13183,6 @@
   .tracking-wide {
     --tw-tracking: var(--tracking-wide);
     letter-spacing: var(--tracking-wide);
-  }
-
-  .text-blue-400 {
-    color: var(--color-blue-400);
-  }
-
-  .text-blue-600 {
-    color: var(--color-blue-600);
   }
 
   .text-cyan-400 {
