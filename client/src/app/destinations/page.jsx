@@ -6,7 +6,8 @@ const DestinationPage = async() => {
     console.log(destinations);
     return (
         <div className="max-w-7xl mx-auto">
-            <h1>All Destinations</h1>
+            <h1 className="text-4xl mt-12 mb-4">Explore All Destinations</h1>
+            <p className="text-gray-500 mb-12">Find your perfect travel experience from our curated collection</p>
 
             <div className="grid grid-cols-4 gap-5">
                 {
