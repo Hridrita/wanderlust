@@ -1,4 +1,4 @@
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 
 const dotenv = require('dotenv');
 dotenv.config();
@@ -35,13 +35,20 @@ async function run() {
     app.get('/destination', async(req,res) =>{
       const result = await destionationCollection.find().toArray();
       res.json(result);
-    })
+    });
 
     app.post('/destination', async(req, res)=>{
       const destionationData = req.body;
       console.log(destionationData);
       const result = await destionationCollection.insertOne(destionationData);
 
+      res.json(result);
+    });
+
+    app.get('/destination/:id', async(req,res)=>{
+      const {id} = req.params;
+
+      const result = await destionationCollection.findOne({_id: new ObjectId(id)})
       res.json(result);
     })
     
