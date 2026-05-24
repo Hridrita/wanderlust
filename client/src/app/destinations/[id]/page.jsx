@@ -7,59 +7,62 @@ import { LuMapPin } from "react-icons/lu";
 
 const DestinationDetailsPage = async ({ params }) => {
   const { id } = await params;
-  console.log(id);
-
   const res = await fetch(`http://localhost:5000/destination/${id}`);
   const destination = await res.json();
 
-  const { _id, imageUrl, price, destinationName, duration, country, description } =
-    destination;
-  console.log(destination);
+  const { imageUrl, price, destinationName, duration, country, description } = destination;
 
   return (
-    <div className="max-w-7xl mx-auto">
-        <div className="flex justify-end">
-            <EditModal destination={destination}></EditModal>
-            <Delete destination={destination}></Delete>
-           
-        </div>
-      <Image
-        alt={destinationName}
-        src={imageUrl}
-        height={500}
-        width={800}
-        className="w-full h-100 object-cover"
-      ></Image>
+    <div className="max-w-6xl mx-auto px-4 py-8">
+      
+      <div className="flex justify-end gap-3 mb-6">
+        <EditModal destination={destination} />
+        <Delete destination={destination} />
+      </div>
 
-      <div className="p-4">
-        
-        <div className="flex items-center gap-1 text-gray-500 mb-2">
-          <LuMapPin />
-          <span>{country}</span>
+      
+      <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-100">
+        <div className="relative w-full h-[450px]">
+          <Image
+            alt={destinationName}
+            src={imageUrl}
+            fill
+            className="object-cover"
+          />
         </div>
 
-        
-        <div className="flex justify-between items-start">
-          <h2 className="text-2xl font-bold">{destinationName}</h2>
-          <h3 className="text-xl font-bold">${price}<span className="text-sm font-normal text-gray-500">/Person</span></h3>
-        </div>
-
-        
-        <div className="flex justify-between items-center mt-3">
-          <div className="flex items-center gap-1 text-gray-600">
-            <FaRegCalendar />
-            <span>{duration}</span>
+        <div className="p-8">
+         
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6">
+            <div>
+              <div className="flex items-center gap-2 text-blue-600 font-medium bg-blue-50 px-3 py-1 rounded-full w-fit mb-3">
+                <LuMapPin />
+                <span>{country}</span>
+              </div>
+              <h2 className="text-4xl font-extrabold text-gray-900">{destinationName}</h2>
+            </div>
+            <div className="text-right">
+              <p className="text-3xl font-bold text-gray-900">${price}</p>
+              <span className="text-sm text-gray-500">per person</span>
+            </div>
           </div>
-           
-        </div>
 
-        <h1 className="mt-10 text-4xl font-semibold">Overview</h1>
+          
+          <div className="flex items-center gap-6 py-4 border-y border-gray-100 mb-8">
+            <div className="flex items-center gap-2 text-gray-600 font-medium">
+              <div className="p-2 bg-gray-100 rounded-lg">
+                <FaRegCalendar />
+              </div>
+              <span>{duration}</span>
+            </div>
+          </div>
 
-        <p className="text-gray-600">
+          
+          <h3 className="text-2xl font-bold text-gray-900 mb-4">Overview</h3>
+          <p className="text-gray-600 leading-relaxed text-lg">
             {description}
-        </p>
-
-        
+          </p>
+        </div>
       </div>
     </div>
   );
