@@ -84,6 +84,7 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-red-700: #bf000f;
     --color-cyan-200: #a2f4fd;
     --color-cyan-400: #00d2ef;
     --color-cyan-500: #00b7d7;
@@ -167,6 +168,7 @@
 
   @supports (color: lab(0% 0 0)) {
     :root, :host {
+      --color-red-700: lab(40.4273% 67.2623 53.7441);
       --color-cyan-200: lab(91.0821% -24.0435 -12.8306);
       --color-cyan-400: lab(76.6045% -40.9406 -29.6231);
       --color-cyan-500: lab(67.805% -35.3952 -30.2018);
@@ -13158,6 +13160,14 @@
     background-color: var(--color-blue-600);
   }
 
+  .bg-cyan-200 {
+    background-color: var(--color-cyan-200);
+  }
+
+  .bg-cyan-400 {
+    background-color: var(--color-cyan-400);
+  }
+
   .bg-cyan-500 {
     background-color: var(--color-cyan-500);
   }
@@ -13521,6 +13531,12 @@
   @media (hover: hover) {
     .hover\:bg-cyan-700:hover {
       background-color: var(--color-cyan-700);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-red-700:hover {
+      background-color: var(--color-red-700);
     }
   }
 
