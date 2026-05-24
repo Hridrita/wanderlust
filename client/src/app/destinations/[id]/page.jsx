@@ -1,3 +1,4 @@
+import { Delete } from "@/components/DeleteAlert";
 import { EditModal } from "@/components/EditModal";
 import Image from "next/image";
 import React from "react";
@@ -19,6 +20,7 @@ const DestinationDetailsPage = async ({ params }) => {
     <div className="max-w-7xl mx-auto">
         <div className="flex justify-end">
             <EditModal destination={destination}></EditModal>
+            <Delete destination={destination}></Delete>
            
         </div>
       <Image
