@@ -34,7 +34,7 @@ const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link href={"/"} className="hover:text-blue-600 transition-colors">
+          <Link href={"/my-bookings"} className="hover:text-blue-600 transition-colors">
             My Bookings
           </Link>
         </li>

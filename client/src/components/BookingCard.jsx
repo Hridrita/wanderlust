@@ -2,6 +2,7 @@
 import { authClient } from "@/lib/auth-client";
 import { Card, Button, DateField, Label } from "@heroui/react";
 import { useState } from "react";
+import toast from "react-hot-toast";
 
 const BookingCard = ({ destination }) => {
 
@@ -16,16 +17,16 @@ const BookingCard = ({ destination }) => {
 
   const handleBooking = async() =>{
     if (!user) {
-        alert("Please login first to book a destination!");
+        toast.error("Please login first to book a destination!");
         return;
     }
 
     if (!departureDate) {
-        alert("Please select a departure date!");
+        toast.error("Please select a departure date!");
         return;
     }
     const bookingData = {
-        userId: user.id,
+        userId: user?.id,
         userImage: user.image,
         userName: user.name,
         destinationId: destination._id,
@@ -47,6 +48,7 @@ const BookingCard = ({ destination }) => {
 
     const data = await res.json();
     console.log(data);
+    toast.success("You booked successfully!");
   }
 
   return (
