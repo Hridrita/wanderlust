@@ -2,8 +2,6 @@
   "/api/auth/[...all]/route": "app/api/auth/[...all]/route.js",
   "/destinations/[id]/page": "app/destinations/[id]/page.js",
   "/destinations/page": "app/destinations/page.js",
-  "/login/page": "app/login/page.js",
   "/my-bookings/page": "app/my-bookings/page.js",
-  "/page": "app/page.js",
-  "/signup/page": "app/signup/page.js"
+  "/page": "app/page.js"
 }
