@@ -29,6 +29,7 @@ async function run() {
     await client.connect();
 
     const db = client.db("wanderlust");
+    const bookingCollection = db.collection("bookings");
 
     const destionationCollection = db.collection("destionations");
 
@@ -66,6 +67,15 @@ async function run() {
       const result = await destionationCollection.deleteOne({_id: new ObjectId(id)})
       res.json(result)
     });
+
+    app.post('/booking', async(req,res)=>{
+      const bookingData = req.body;
+      const result = await bookingCollection.insertOne(bookingData);
+
+      res.json(result);
+    })
+
+
     
     await client.db("admin").command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
