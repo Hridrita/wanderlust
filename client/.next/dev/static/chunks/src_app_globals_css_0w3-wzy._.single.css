@@ -21,6 +21,7 @@
       --tw-ring-offset-width: 0px;
       --tw-ring-offset-color: #fff;
       --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-outline-style: solid;
       --tw-backdrop-blur: initial;
       --tw-backdrop-brightness: initial;
       --tw-backdrop-contrast: initial;
@@ -61,7 +62,6 @@
       --tw-numeric-figure: initial;
       --tw-numeric-spacing: initial;
       --tw-numeric-fraction: initial;
-      --tw-outline-style: solid;
       --tw-border-spacing-x: 0;
       --tw-border-spacing-y: 0;
       --tw-gradient-position: initial;
@@ -13160,10 +13160,6 @@
     background-color: var(--color-blue-600);
   }
 
-  .bg-cyan-200 {
-    background-color: var(--color-cyan-200);
-  }
-
   .bg-cyan-400 {
     background-color: var(--color-cyan-400);
   }
@@ -13497,6 +13493,11 @@
     .shadow-cyan-200 {
       --tw-shadow-color: color-mix(in oklab, var(--color-cyan-200) var(--tw-shadow-alpha), transparent);
     }
+  }
+
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
   }
 
   .backdrop-blur-sm {
@@ -13852,6 +13853,12 @@
   initial-value: 0 0 #0000;
 }
 
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+
 @property --tw-backdrop-blur {
   syntax: "*";
   inherits: false
@@ -13972,12 +13979,6 @@
 @property --tw-numeric-fraction {
   syntax: "*";
   inherits: false
-}
-
-@property --tw-outline-style {
-  syntax: "*";
-  inherits: false;
-  initial-value: solid;
 }
 
 @property --tw-border-spacing-x {

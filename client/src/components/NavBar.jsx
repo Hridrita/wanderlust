@@ -13,6 +13,10 @@ const NavBar = () => {
   const user = session?.user;
   console.log(user);
 
+  const handleSignOut = async() =>{
+    await authClient.signOut();
+  }
+
   return (
     <nav className="flex justify-between items-center bg-white px-8 py-4 shadow-md sticky top-0 z-50">
       <ul className="flex gap-6 font-medium text-gray-700">
@@ -69,7 +73,7 @@ const NavBar = () => {
         <Avatar.Fallback className="bg-cyan-400 font-bold">{user.name.charAt(0).toUpperCase()}</Avatar.Fallback>
       </Avatar></li>
         <li>
-          <Button variant="danger" className="px-5 py-2  text-white rounded-full hover:bg-red-700 transition-all">logout</Button>
+          <Button onClick={handleSignOut} variant="danger" className="px-5 py-2  text-white rounded-full hover:bg-red-700 transition-all">logout</Button>
         </li>
         </> :
           <>

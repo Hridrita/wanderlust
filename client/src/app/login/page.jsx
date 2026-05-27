@@ -37,6 +37,14 @@ const LoginPage = () => {
       toast.error(error.message || "Something went wrong, please try again.");
     }
   };
+
+  const handleGoggleSignIn = async() =>{
+        await authClient.signIn.social({
+          provider: 'google'
+        })
+      }
+
+  
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-gray-50">
       <Toaster position="top-right" richColors />
@@ -73,7 +81,8 @@ const LoginPage = () => {
           </div>
 
           <Button
-            variant="bordered"
+          onClick={handleGoggleSignIn}
+            variant="outline"
             className="w-full rounded-none h-12 border-gray-300 font-semibold"
           >
             <FcGoogle size={20} /> Sign Up With Google
