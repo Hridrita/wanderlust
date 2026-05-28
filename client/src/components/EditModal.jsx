@@ -24,7 +24,7 @@ export function EditModal({ destination }) {
     const formData = new FormData(e.currentTarget);
     const data = Object.fromEntries(formData.entries());
 
-    await fetch(`http://localhost:5000/destination/${_id}`, {
+    await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/destination/${_id}`, {
       method: 'PATCH',
       headers: { 'Content-type': 'application/json' },
       body: JSON.stringify(data)

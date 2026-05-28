@@ -31,6 +31,7 @@
       --tw-backdrop-opacity: initial;
       --tw-backdrop-saturate: initial;
       --tw-backdrop-sepia: initial;
+      --tw-duration: initial;
       --tw-animation-delay: 0s;
       --tw-animation-direction: normal;
       --tw-animation-duration: initial;
@@ -49,7 +50,6 @@
       --tw-exit-translate-x: 0;
       --tw-exit-translate-y: 0;
       --tw-content: "";
-      --tw-duration: initial;
       --tw-ease: initial;
       --tw-translate-x: 0;
       --tw-translate-y: 0;
@@ -12898,6 +12898,10 @@
     margin-top: calc(var(--spacing) * 12);
   }
 
+  .mt-16 {
+    margin-top: calc(var(--spacing) * 16);
+  }
+
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
@@ -12958,6 +12962,10 @@
     height: calc(var(--spacing) * 12);
   }
 
+  .h-16 {
+    height: calc(var(--spacing) * 16);
+  }
+
   .h-60 {
     height: calc(var(--spacing) * 60);
   }
@@ -13000,6 +13008,10 @@
 
   .min-h-screen {
     min-height: 100vh;
+  }
+
+  .w-16 {
+    width: calc(var(--spacing) * 16);
   }
 
   .w-\[250px\] {
@@ -13048,6 +13060,10 @@
 
   .min-w-4xl {
     min-width: var(--container-4xl);
+  }
+
+  .min-w-\[80px\] {
+    min-width: 80px;
   }
 
   .flex-1 {
@@ -13200,6 +13216,10 @@
     border-bottom-width: 1px;
   }
 
+  .border-blue-600 {
+    border-color: var(--color-blue-600);
+  }
+
   .border-gray-100 {
     border-color: var(--color-gray-100);
   }
@@ -13252,6 +13272,10 @@
     background-color: var(--color-gray-50);
   }
 
+  .bg-gray-200 {
+    background-color: var(--color-gray-200);
+  }
+
   .bg-gray-800 {
     background-color: var(--color-gray-800);
   }
@@ -13294,8 +13318,8 @@
     }
   }
 
-  .bg-\[url\(\'\/assets\/banner\.png\'\)\] {
-    background-image: url("/assets/banner.png");
+  .bg-\[url\(\'\/assets\/Banner\.png\'\)\] {
+    background-image: url("/assets/Banner.png");
   }
 
   .object-cover {
@@ -13534,6 +13558,10 @@
     text-transform: uppercase;
   }
 
+  .italic {
+    font-style: italic;
+  }
+
   .antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -13586,6 +13614,12 @@
     backdrop-filter: var(--tw-backdrop-blur, ) var(--tw-backdrop-brightness, ) var(--tw-backdrop-contrast, ) var(--tw-backdrop-grayscale, ) var(--tw-backdrop-hue-rotate, ) var(--tw-backdrop-invert, ) var(--tw-backdrop-opacity, ) var(--tw-backdrop-saturate, ) var(--tw-backdrop-sepia, );
   }
 
+  .transition {
+    transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
+    transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
+    transition-duration: var(--tw-duration, var(--default-transition-duration));
+  }
+
   .transition-all {
     transition-property: all;
     transition-timing-function: var(--tw-ease, var(--default-transition-timing-function));
@@ -13598,9 +13632,20 @@
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
 
+  .duration-300 {
+    --tw-duration: .3s;
+    transition-duration: .3s;
+  }
+
   .outline-none {
     --tw-outline-style: none;
     outline-style: none;
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-blue-600:hover {
+      background-color: var(--color-blue-600);
+    }
   }
 
   @media (hover: hover) {
@@ -13636,6 +13681,13 @@
   @media (hover: hover) {
     .hover\:underline:hover {
       text-decoration-line: underline;
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:shadow-lg:hover {
+      --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, #0000001a), 0 4px 6px -4px var(--tw-shadow-color, #0000001a);
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
   }
 
@@ -13708,6 +13760,12 @@
   @media (min-width: 48rem) {
     .md\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:grid-cols-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 
@@ -14026,15 +14084,15 @@
   inherits: false
 }
 
+@property --tw-duration {
+  syntax: "*";
+  inherits: false
+}
+
 @property --tw-content {
   syntax: "*";
   inherits: false;
   initial-value: "";
-}
-
-@property --tw-duration {
-  syntax: "*";
-  inherits: false
 }
 
 @property --tw-ease {
