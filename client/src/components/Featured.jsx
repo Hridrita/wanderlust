@@ -5,7 +5,7 @@ import { LuMapPin } from "react-icons/lu";
 import { FaRegCalendar } from "react-icons/fa";
 
 const Featured = async () => {
-    // API থেকে ডাটা ফেচ করা
+    
     const res = await fetch(`${process.env.NEXT_PUBLIC_SERVER_URL}/featured`);
     const destinations = await res.json();
 
@@ -21,7 +21,7 @@ const Featured = async () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {destinations?.map((item) => (
                     <div key={item._id} className="bg-white rounded-2xl overflow-hidden shadow-sm border hover:shadow-lg transition duration-300">
-                        {/* ইমেজ সেকশন */}
+                        
                         <div className="relative w-full h-60">
                             <Image 
                                 src={item.imageUrl} 
@@ -31,7 +31,7 @@ const Featured = async () => {
                             />
                         </div>
 
-                        {/* কন্টেন্ট সেকশন */}
+                        
                         <div className="p-5">
                             <div className="flex items-center gap-1 text-gray-500 mb-2">
                                 <LuMapPin size={16} />
