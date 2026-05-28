@@ -13,11 +13,7 @@ const PORT = process.env.PORT;
 
 const cors = require("cors");
 const { createRemoteJWKSet, jwtVerify } = require('jose-cjs');
-app.use(cors({
-  origin: "http://localhost:3000", 
-  allowedHeaders: ["Content-Type", "Authorization"], 
-  credentials: true
-}));
+app.use(cors());
 app.use(express.json());
 
 const client = new MongoClient(uri, {
